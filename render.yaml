@@ -1,3 +1,7 @@
-buildCommand: npm ci && npm run build
-
-startCommand: npm run start
+buildCommand: |
+  cd cv
+  npm ci
+  npm run build
+startCommand: |
+  cd cv
+  npm run serve
